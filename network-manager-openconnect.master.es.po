@@ -241,7 +241,7 @@ msgstr ""
 
 #: ../src/nm-openconnect-service.c:650
 msgid "D-Bus name to use for this instance"
-msgstr ""
+msgstr "nombre de D-Bus a usar para este caso"
 
 #: ../src/nm-openconnect-service.c:673
 msgid ""
@@ -287,7 +287,7 @@ msgstr "Falló al analizar el documento HTML\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l351
 #: ../openconnect-strings.txt:30
 msgid "TNCC support not implemented yet on Windows\n"
-msgstr ""
+msgstr "Soporte TNCC aún no implementado en Windows\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l373
 #: ../openconnect-strings.txt:33
@@ -318,7 +318,7 @@ msgstr "Falló al guardar configuración en %s: %s\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l435
 #: ../openconnect-strings.txt:45
 msgid "Sent start; waiting for response from TNCC\n"
-msgstr ""
+msgstr "Envío iniciado; esperando respuesta por parte de TNCC\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l440
 #: ../openconnect-strings.txt:48
@@ -330,7 +330,7 @@ msgstr "Falló al leer la respuesta del proxy\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l451
 #: ../openconnect-strings.txt:51
 msgid "Received invalid response from TNCC\n"
-msgstr ""
+msgstr "Respuesta inválida recibida de TNCC\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l453
 #: ../openconnect-strings.txt:54
@@ -616,7 +616,7 @@ msgstr "(error 0x%x)"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/compat.c#l210
 #: ../openconnect-strings.txt:204
 msgid "(Error while describing error!)"
-msgstr ""
+msgstr "(¡Error mientras se describe el error!)"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/compat.c#l233
 #: ../openconnect-strings.txt:207
@@ -717,7 +717,7 @@ msgstr "No se recibió dirección IP. Abortando\n"
 #: ../openconnect-strings.txt:259
 #, c-format
 msgid "IPv6 configuration received but MTU %d is too small.\n"
-msgstr ""
+msgstr "Configuración de IPv6 recibida pero MTU %d es demasiado pequeña..\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/cstp.c#l512
 #: ../openconnect-strings.txt:262
@@ -958,7 +958,7 @@ msgstr "Falló al crear BIO para el elemento «%s» del almacén de claves\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l191
 #: ../openconnect-strings.txt:394
 msgid "OpenSSL failed to parse SSL_SESSION ASN.1\n"
-msgstr ""
+msgstr "OpenSSL falló al analizar SSL_SESSION ASN.1\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l205
 #: ../openconnect-strings.txt:397
@@ -1077,7 +1077,7 @@ msgstr "Falló la negociación DTLS: %s\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l678
 #: ../openconnect-strings.txt:457
 msgid "(Is a firewall preventing you from sending UDP packets?)\n"
-msgstr ""
+msgstr "(¿Es un cortafuegos lo que impide el envío de paquetes UDP?)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l699
 #: ../openconnect-strings.txt:460
@@ -1217,7 +1217,7 @@ msgstr "Operación SSL cancelada\n"
 #: ../openconnect-strings.txt:535
 #, c-format
 msgid "Initiating IPv4 MTU detection (min=%d, max=%d)\n"
-msgstr ""
+msgstr "Iniciando la detección de IPv4 MTU (min=%d, max=%d)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1130
 #: ../openconnect-strings.txt:538
@@ -1237,7 +1237,7 @@ msgstr "Falló al enviar petición DPD. Espere para desconectar\n"
 #: ../openconnect-strings.txt:546
 #, c-format
 msgid "Received unexpected packet (%.2x) in MTU detection; skipping.\n"
-msgstr ""
+msgstr "Paquete inesperado recibido (%.2x) en la detección de MTU; omitiendo.\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1179
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1273
@@ -1250,7 +1250,7 @@ msgstr "Falló al reconectar al servidor %s\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1212
 #: ../openconnect-strings.txt:553
 msgid "Initiating IPv6 MTU detection\n"
-msgstr ""
+msgstr "Iniciando detección de MTU IPv6\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1323
 #: ../openconnect-strings.txt:556
