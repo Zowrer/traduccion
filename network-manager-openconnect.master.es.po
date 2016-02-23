@@ -1263,19 +1263,19 @@ msgstr "Enviando paquete de datos comprimidos de %d bytes\n"
 #: ../openconnect-strings.txt:559
 #, c-format
 msgid "No change in MTU after detection (was %d)\n"
-msgstr ""
+msgstr "No hay cambios en MTU después de la detección (fue %d)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l57
 #: ../openconnect-strings.txt:562
 #, c-format
 msgid "Accepting expected ESP packet with seq %u\n"
-msgstr ""
+msgstr "Aceptando paquete ESP esperado con seq %u\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l63
 #: ../openconnect-strings.txt:565
 #, c-format
 msgid "Discarding ancient ESP packet with seq %u (expected %u)\n"
-msgstr ""
+msgstr "Descartando paquetes ESP antiguos con seq %u (se esperaba %u)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l72
 #: ../openconnect-strings.txt:568
