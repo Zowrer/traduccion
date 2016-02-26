@@ -6,21 +6,22 @@
 # Javier Mazorra Rodríguez <mazi.debian@gmail.com>, 2012, 2013.
 # facundo Dario Illanes <fdillanes@gmail.com>, 2013.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
+# Ignacio Acevedo Carrera <zourer@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: network-manager-openconnect.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=NetworkManager&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-22 02:04+0000\n"
-"PO-Revision-Date: 2016-02-12 11:46+0100\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"POT-Creation-Date: 2016-02-23 08:04+0000\n"
+"PO-Revision-Date: 2016-02-25 18:20-0600\n"
+"Last-Translator: Ignacio Acevedo Carrera <zourer@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../auth-dialog/main.c:661
@@ -241,7 +242,7 @@ msgstr ""
 
 #: ../src/nm-openconnect-service.c:650
 msgid "D-Bus name to use for this instance"
-msgstr "nombre de D-Bus a usar para este caso"
+msgstr "Nombre de D-Bus que usar para esta instancia"
 
 #: ../src/nm-openconnect-service.c:673
 msgid ""
@@ -330,7 +331,7 @@ msgstr "Falló al leer la respuesta del proxy\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l451
 #: ../openconnect-strings.txt:51
 msgid "Received invalid response from TNCC\n"
-msgstr "Respuesta inválida recibida de TNCC\n"
+msgstr "Respuesta no válida recibida de TNCC\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l453
 #: ../openconnect-strings.txt:54
@@ -378,7 +379,7 @@ msgstr "Tipo de proxy desconocido '%s'\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l549
 #: ../openconnect-strings.txt:75
 msgid "Dumping unknown HTML form:\n"
-msgstr ""
+msgstr "Deshaciendo formulario HTML desconocido:\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l563
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth.c#l661
@@ -616,7 +617,7 @@ msgstr "(error 0x%x)"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/compat.c#l210
 #: ../openconnect-strings.txt:204
 msgid "(Error while describing error!)"
-msgstr "(¡Error mientras se describe el error!)"
+msgstr "(¡Error al describir el error!)"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/compat.c#l233
 #: ../openconnect-strings.txt:207
@@ -717,7 +718,7 @@ msgstr "No se recibió dirección IP. Abortando\n"
 #: ../openconnect-strings.txt:259
 #, c-format
 msgid "IPv6 configuration received but MTU %d is too small.\n"
-msgstr "Configuración de IPv6 recibida pero MTU %d es demasiado pequeña..\n"
+msgstr "Configuración de IPv6 recibida pero la MTU %d es demasiado pequeña.\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/cstp.c#l512
 #: ../openconnect-strings.txt:262
@@ -1222,7 +1223,7 @@ msgstr "Iniciando la detección de IPv4 MTU (min=%d, max=%d)\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1130
 #: ../openconnect-strings.txt:538
 msgid "Too long time in MTU detect loop; bailing out.\n"
-msgstr ""
+msgstr "Demasiado tiempo en detectar el bucle MTU; liberando.\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1153
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1232
@@ -1237,7 +1238,8 @@ msgstr "Falló al enviar petición DPD. Espere para desconectar\n"
 #: ../openconnect-strings.txt:546
 #, c-format
 msgid "Received unexpected packet (%.2x) in MTU detection; skipping.\n"
-msgstr "Paquete inesperado recibido (%.2x) en la detección de MTU; omitiendo.\n"
+msgstr ""
+"Paquete inesperado recibido (%.2x) en la detección de MTU; omitiendo.\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1179
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/dtls.c#l1273
@@ -1269,37 +1271,40 @@ msgstr "No hay cambios en MTU después de la detección (fue %d)\n"
 #: ../openconnect-strings.txt:562
 #, c-format
 msgid "Accepting expected ESP packet with seq %u\n"
-msgstr "Aceptando paquete ESP esperado con seq %u\n"
+msgstr "Aceptando paquete ESP esperado con la secuencia %u\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l63
 #: ../openconnect-strings.txt:565
 #, c-format
 msgid "Discarding ancient ESP packet with seq %u (expected %u)\n"
-msgstr "Descartando paquetes ESP antiguos con seq %u (se esperaba %u)\n"
+msgstr "Descartando paquete ESP antiguo con la secuencia %u (se esperaba %u)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l72
 #: ../openconnect-strings.txt:568
 #, c-format
 msgid "Accepting out-of-order ESP packet with seq %u (expected %u)\n"
 msgstr ""
+"Aceptando paquete ESP fuera de orden con la secuencia %u (se esperaba %u)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l78
 #: ../openconnect-strings.txt:571
 #, c-format
 msgid "Discarding replayed ESP packet with seq %u\n"
-msgstr ""
+msgstr "Descartando paquete ESP repetido con la secuencia %u\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l107
 #: ../openconnect-strings.txt:574
 #, c-format
 msgid "Accepting later-than-expected ESP packet with seq %u (expected %u)\n"
 msgstr ""
+"Aceptando paquete ESP después de lo esperado con la secuencia %u (se "
+"esperaba %u)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l152
 #: ../openconnect-strings.txt:577
 #, c-format
 msgid "Parameters for %s ESP: SPI 0x%08x\n"
-msgstr ""
+msgstr "Parametros para %s ESP: SPI 0x%08x\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l155
 #: ../openconnect-strings.txt:580
@@ -1318,12 +1323,12 @@ msgstr "Autenticación GSSAPI completada\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l217
 #: ../openconnect-strings.txt:586
 msgid "incoming"
-msgstr ""
+msgstr "entrante"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l218
 #: ../openconnect-strings.txt:589
 msgid "outgoing"
-msgstr ""
+msgstr "saliente"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l220
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l237
@@ -1343,18 +1348,20 @@ msgstr "Recibió el paquete DTLS 0x%02x de %d bytes\n"
 #, c-format
 msgid "Consider SPI 0x%x, seq %u against outgoing ESP setup\n"
 msgstr ""
+"Considere SPI 0x%x, de la secuencia %u contra la configuración de salida "
+"ESP\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l286
 #: ../openconnect-strings.txt:602
 #, c-format
 msgid "Received ESP packet with invalid SPI 0x%08x\n"
-msgstr ""
+msgstr "Paquete ESP recibido con SPI inválido 0x%08x\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l294
 #: ../openconnect-strings.txt:605
 #, c-format
 msgid "Received ESP packet with unrecognised payload type %02x\n"
-msgstr ""
+msgstr "Paquete ESP recibido con la carga útil de tipo desconocido %02x\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l301
 #: ../openconnect-strings.txt:608
