@@ -5,23 +5,23 @@
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javier Mazorra Rodríguez <mazi.debian@gmail.com>, 2012, 2013.
 # facundo Dario Illanes <fdillanes@gmail.com>, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 # Ignacio Acevedo Carrera <zourer@gmail.com>, 2016.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: network-manager-openconnect.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=NetworkManager&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-23 08:04+0000\n"
-"PO-Revision-Date: 2016-02-25 18:20-0600\n"
-"Last-Translator: Ignacio Acevedo Carrera <zourer@gmail.com>\n"
+"POT-Creation-Date: 2016-03-02 14:06+0000\n"
+"PO-Revision-Date: 2016-02-26 08:54+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 2.91.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../auth-dialog/main.c:661
@@ -379,7 +379,7 @@ msgstr "Tipo de proxy desconocido '%s'\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l549
 #: ../openconnect-strings.txt:75
 msgid "Dumping unknown HTML form:\n"
-msgstr "Deshaciendo formulario HTML desconocido:\n"
+msgstr "Volcando formulario HTML desconocido:\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth-juniper.c#l563
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/auth.c#l661
@@ -1355,7 +1355,7 @@ msgstr ""
 #: ../openconnect-strings.txt:602
 #, c-format
 msgid "Received ESP packet with invalid SPI 0x%08x\n"
-msgstr "Paquete ESP recibido con SPI inválido 0x%08x\n"
+msgstr "Paquete ESP recibido con SPI no válido 0x%08x\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l294
 #: ../openconnect-strings.txt:605
