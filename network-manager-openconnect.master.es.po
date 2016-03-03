@@ -5,23 +5,23 @@
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javier Mazorra Rodríguez <mazi.debian@gmail.com>, 2012, 2013.
 # facundo Dario Illanes <fdillanes@gmail.com>, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 # Ignacio Acevedo Carrera <zourer@gmail.com>, 2016.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: network-manager-openconnect.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=NetworkManager&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-02 14:06+0000\n"
-"PO-Revision-Date: 2016-03-02 10:26-0600\n"
-"Last-Translator: Ignacio Acevedo Carrera <zourer@gmail.com>\n"
+"POT-Creation-Date: 2016-03-03 08:08+0000\n"
+"PO-Revision-Date: 2016-03-03 09:01+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 2.91.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../auth-dialog/main.c:661
@@ -1367,7 +1367,7 @@ msgstr "Paquete ESP recibido con la carga útil de tipo desconocido %02x\n"
 #: ../openconnect-strings.txt:608
 #, c-format
 msgid "Invalid padding length %02x in ESP\n"
-msgstr "Llongitud de relleno no válida %02x en ESP\n"
+msgstr "Longitud de relleno %02x no válida en ESP\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/esp.c#l313
 #: ../openconnect-strings.txt:611
@@ -1464,7 +1464,7 @@ msgstr "Falló al escribir en el socket SSL: %s\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/openssl-esp.c#l148
 #: ../openconnect-strings.txt:658
 msgid "Received ESP packet with invalid HMAC\n"
-msgstr "Paquete ESP recivido con HMAC no válida\n"
+msgstr "Paquete ESP recibido con HMAC no válida\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/gnutls-esp.c#l169
 #: ../openconnect-strings.txt:661
@@ -2817,7 +2817,7 @@ msgstr "Falló la ubicación de la ruta de vpnc-script\n"
 #: ../openconnect-strings.txt:1396
 #, c-format
 msgid "Override hostname '%s' to '%s'\n"
-msgstr "Anular nombre de servidor '%s' a '%s'\n"
+msgstr "Cambiar nombre de servidor «%s» a «%s»\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/main.c#l737
 #: ../openconnect-strings.txt:1399
@@ -3148,7 +3148,7 @@ msgstr "Cabecera HTTP User_Agent: campo"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/main.c#l815
 #: ../openconnect-strings.txt:1590
 msgid "Use IP when connecting to HOST"
-msgstr "Utilice IP cuando se conecta a HOST"
+msgstr "Usar IP cuando al conectar a HOST"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/main.c#l816
 #: ../openconnect-strings.txt:1593
@@ -3662,7 +3662,7 @@ msgstr "Cookie «%s» no válida\n"
 #: ../openconnect-strings.txt:1870
 #, c-format
 msgid "Unexpected length %d for TLV %d/%d\n"
-msgstr "Longitud inesperada %d para TLV %d/%d\n"
+msgstr "Longitud %d inesperada para TLV %d/%d\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/oncp.c#l182
 #: ../openconnect-strings.txt:1873
@@ -3699,7 +3699,7 @@ msgstr "Máscara de red recibida %s\n"
 #: ../openconnect-strings.txt:1888
 #, c-format
 msgid "Received internal gateway address %s\n"
-msgstr "Dirección de puerta de enlace interna recibida %s"
+msgstr "Dirección de puerta de enlace interna recibida %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/b3ba140b2b:/oncp.c#l248
 #: ../openconnect-strings.txt:1891
