@@ -5,23 +5,23 @@
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javier Mazorra Rodríguez <mazi.debian@gmail.com>, 2012, 2013.
 # facundo Dario Illanes <fdillanes@gmail.com>, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 # Ignacio Acevedo Carrera <zourer@gmail.com>, 2016.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: network-manager-openconnect.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=NetworkManager&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-14 09:12+0000\n"
-"PO-Revision-Date: 2016-03-14 12:00-0600\n"
-"Last-Translator: Ignacio Acevedo Carrera <zourer@gmail.com>\n"
+"POT-Creation-Date: 2016-03-16 14:03+0000\n"
+"PO-Revision-Date: 2016-03-15 08:54+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 2.91.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../auth-dialog/main.c:661
@@ -255,21 +255,18 @@ msgstr ""
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l128
 #: ../openconnect-strings.txt:14
 #, c-format
-#| msgid "Ignoring unknown HTTP response line '%s'\n"
 msgid "Ignoring unknown form submit item '%s'\n"
 msgstr "Ignorando formulario de envío desconocido del elemento «%s»\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l141
 #: ../openconnect-strings.txt:17
 #, c-format
-#| msgid "Ignoring unknown HTTP response line '%s'\n"
 msgid "Ignoring unknown form input type '%s'\n"
 msgstr "Ignorando formulario de entrada desconocido del tipo «%s»\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l151
 #: ../openconnect-strings.txt:20
 #, c-format
-#| msgid "Discard bad split include: \"%s\"\n"
 msgid "Discarding duplicate option '%s'\n"
 msgstr "Descartando opcion duplicada «%s»\n"
 
@@ -292,20 +289,17 @@ msgstr "Ninguna cookie DSPREAUTH; no intentar TNCC\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l341
 #: ../openconnect-strings.txt:33
-#| msgid "Failed to allocate memory for certificate\n"
 msgid "Failed to allocate memory for communication with TNCC\n"
 msgstr "No se pudo asignar memoria para la comunicación con TNCC\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l376
 #: ../openconnect-strings.txt:36
 #, c-format
-#| msgid "Failed to exec CSD script %s\n"
 msgid "Failed to exec TNCC script %s: %s\n"
 msgstr "Falló al ejecutar el script TNCC %s: %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l385
 #: ../openconnect-strings.txt:39
-#| msgid "Failed to write config to %s: %s\n"
 msgid "Failed to send start command to TNCC\n"
 msgstr "No se pudo enviar el comando de inicio a TNCC\n"
 
@@ -316,7 +310,6 @@ msgstr "Envío iniciado; esperando respuesta por parte de TNCC\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l397
 #: ../openconnect-strings.txt:45
-#| msgid "Failed to read proxy response\n"
 msgid "Failed to read response from TNCC\n"
 msgstr "No se pudo leer la respuesta de TNCC\n"
 
@@ -356,11 +349,10 @@ msgstr "Falló al analizar el documento HTML\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l512
 #: ../openconnect-strings.txt:66
-#| msgid "Failed to send GET request for new config\n"
 msgid "Failed to find or parse web form in login page\n"
 msgstr ""
 "No se pudo encontrar o analizar el formulario web en la página de inicio de "
-"sesiónn\n"
+"sesión\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l520
 #: ../openconnect-strings.txt:69
@@ -370,7 +362,6 @@ msgstr "Encontrado formulario sin ID\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth-juniper.c#l545
 #: ../openconnect-strings.txt:72
 #, c-format
-#| msgid "Unknown proxy type '%s'\n"
 msgid "Unknown form ID '%s'\n"
 msgstr "ID de formulario desconocido «%s»\n"
 
@@ -474,9 +465,6 @@ msgstr "Perfil XML nuevo descargado\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth.c#l973
 #: ../openconnect-strings.txt:132
-#| msgid ""
-#| "Error: Running the 'Cisco Secure Desktop' trojan on Windows is not yet "
-#| "implemented.\n"
 msgid ""
 "Error: Running the 'Cisco Secure Desktop' trojan on this platform is not yet "
 "implemented.\n"
@@ -532,7 +520,6 @@ msgstr "Falló al escribir el archivo temporal del script CSD: %s\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/mainloop.c#l140
 #: ../openconnect-strings.txt:161
 #, c-format
-#| msgid "Failed to set uid %ld\n"
 msgid "Failed to set gid %ld: %s\n"
 msgstr "No se pudo establecer gid %ld: %s\n"
 
