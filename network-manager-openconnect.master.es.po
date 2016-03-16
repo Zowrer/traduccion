@@ -5,8 +5,8 @@
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javier Mazorra Rodríguez <mazi.debian@gmail.com>, 2012, 2013.
 # facundo Dario Illanes <fdillanes@gmail.com>, 2013.
-# Ignacio Acevedo Carrera <zourer@gmail.com>, 2016.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
+# Ignacio Acevedo Carrera <zourer@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
@@ -14,14 +14,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=NetworkManager&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-03-16 14:03+0000\n"
-"PO-Revision-Date: 2016-03-15 08:54+0100\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"PO-Revision-Date: 2016-03-16 11:27-0600\n"
+"Last-Translator: Ignacio Acevedo Carrera <zourer@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../auth-dialog/main.c:661
@@ -526,18 +526,18 @@ msgstr "No se pudo establecer gid %ld: %s\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth.c#l1082
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/mainloop.c#l147
 #: ../openconnect-strings.txt:165
-#, fuzzy, c-format
+#, c-format
 #| msgid "Failed to set uid %ld\n"
 msgid "Failed to set groups to %ld: %s\n"
-msgstr "Falló al establecer el UID %ld\n"
+msgstr "No se pueden establecer grupos de %ld: %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth.c#l1089
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/mainloop.c#l154
 #: ../openconnect-strings.txt:169
-#, fuzzy, c-format
+#, c-format
 #| msgid "Failed to set uid %ld\n"
 msgid "Failed to set uid %ld: %s\n"
-msgstr "Falló al establecer el UID %ld\n"
+msgstr "No se pudo establecer uid %ld: %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/auth.c#l1096
 #: ../openconnect-strings.txt:172
@@ -681,10 +681,10 @@ msgstr "X-DTLS-Session no es de 64 caracteres; es: «%s»\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/cstp.c#l385
 #: ../openconnect-strings.txt:247
-#, fuzzy, c-format
+#, c-format
 #| msgid "Unknown CSTP-Content-Encoding %s\n"
 msgid "Unknown DTLS-Content-Encoding %s\n"
-msgstr "CSTP-Content-Encoding %s desconocido\n"
+msgstr "DTLS-Content-Encoding %s desconocido\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/cstp.c#l421
 #: ../openconnect-strings.txt:250
@@ -778,10 +778,10 @@ msgstr "Tipo de compresión %d desconocido\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/cstp.c#l745
 #: ../openconnect-strings.txt:298
-#, fuzzy, c-format
+#, c-format
 #| msgid "Received compressed data packet of %ld bytes\n"
 msgid "Received %s compressed data packet of %d bytes (was %d)\n"
-msgstr "Se recibió el paquete de datos comprimidos de %ld bytes\n"
+msgstr "Paquete de datos comprimidos %s de %d bytes recibido (eran %d)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/cstp.c#l765
 #: ../openconnect-strings.txt:301
@@ -907,10 +907,10 @@ msgstr "Enviar CSTP Keepalive\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/cstp.c#l1079
 #: ../openconnect-strings.txt:375
-#, fuzzy, c-format
+#, c-format
 #| msgid "Sending compressed data packet of %d bytes\n"
 msgid "Sending compressed data packet of %d bytes (was %d)\n"
-msgstr "Enviando paquete de datos comprimidos de %d bytes\n"
+msgstr "Enviando paquete de datos comprimidos de %d bytes (eran %d)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/cstp.c#l1090
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/oncp.c#l1248
@@ -932,17 +932,17 @@ msgstr "Intentando la autenticación Digest en el proxy\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/digest.c#l257
 #: ../openconnect-strings.txt:388
-#, fuzzy, c-format
+#, c-format
 #| msgid "Attempting Digest authentication to proxy\n"
 msgid "Attempting Digest authentication to server '%s'\n"
-msgstr "Intentando la autenticación Digest en el proxy\n"
+msgstr "Intentando la autenticación Digest al servidor «%s»\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l180
 #: ../openconnect-strings.txt:391
-#, fuzzy, c-format
+#, c-format
 #| msgid "Failed to create BIO for keystore item '%s'\n"
 msgid "Failed to create SSL_SESSION ASN.1 for OpenSSL: %s\n"
-msgstr "Falló al crear BIO para el elemento «%s» del almacén de claves\n"
+msgstr "No se pudo crear SSL_SESSION ASN.1 para OpenSSL: %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l191
 #: ../openconnect-strings.txt:394
@@ -992,10 +992,10 @@ msgstr "Establecida la conexíon DTLS (usando OpenSSL). Ciphersuite %s.\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l345
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l656
 #: ../openconnect-strings.txt:420
-#, fuzzy, c-format
+#, c-format
 #| msgid "DTLS connection attempted with an existing fd\n"
 msgid "DTLS connection compression using %s.\n"
-msgstr "Intento de conexión DTLS con un «fd» existente\n"
+msgstr "Compresión de la conexión DTLS utilizando %s.\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l376
 #: ../openconnect-strings.txt:423
@@ -1133,10 +1133,10 @@ msgstr "Obtenido Keepalive DTLS\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l917
 #: ../openconnect-strings.txt:496
-#, fuzzy
 #| msgid "Compressed packet received in !deflate mode\n"
 msgid "Compressed DTLS packet received when compression not enabled\n"
-msgstr "Se recibió el paquete comprimido en modo !vacío\n"
+msgstr ""
+"Paquete DTLS comprimido recibido cuando la compresión no estaba activada\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l925
 #: ../openconnect-strings.txt:499
@@ -1216,10 +1216,10 @@ msgstr "Demasiado tiempo en detectar el bucle MTU; liberando.\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1155
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1234
 #: ../openconnect-strings.txt:542
-#, fuzzy, c-format
+#, c-format
 #| msgid "Failed to send DPD request. Expect disconnect\n"
 msgid "Failed to send DPD request (%d): %s\n"
-msgstr "Falló al enviar petición DPD. Espere para desconectar\n"
+msgstr "No se pudo enviar la solicitud DPD (%d): %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1175
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1260
@@ -1232,10 +1232,10 @@ msgstr ""
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1181
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1276
 #: ../openconnect-strings.txt:550
-#, fuzzy, c-format
+#, c-format
 #| msgid "Failed to reconnect to host %s\n"
 msgid "Failed to recv DPD request (%d): %s\n"
-msgstr "Falló al reconectar al servidor %s\n"
+msgstr "No se pudo recibir la solicitud DPD (%d): %s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1214
 #: ../openconnect-strings.txt:553
@@ -1244,10 +1244,10 @@ msgstr "Iniciando detección de MTU IPv6\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1329
 #: ../openconnect-strings.txt:556
-#, fuzzy, c-format
+#, c-format
 #| msgid "Sending compressed data packet of %d bytes\n"
 msgid "Detected MTU of %d bytes (was %d)\n"
-msgstr "Enviando paquete de datos comprimidos de %d bytes\n"
+msgstr "Detectado MTU de %d bytes (eran %d)\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/dtls.c#l1332
 #: ../openconnect-strings.txt:559
@@ -1296,17 +1296,17 @@ msgstr "Parametros para %s ESP: SPI 0x%08x\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/esp.c#l155
 #: ../openconnect-strings.txt:580
-#, fuzzy, c-format
+#, c-format
 #| msgid "Unsupported PEM encryption type: %s\n"
 msgid "ESP encryption type %s key 0x%s\n"
-msgstr "Tipo de cifrado PEM no soportado: %s\n"
+msgstr "Tipo de cifrado ESP %s clave 0x%s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/esp.c#l158
 #: ../openconnect-strings.txt:583
-#, fuzzy, c-format
+#, c-format
 #| msgid "GSSAPI authentication completed\n"
 msgid "ESP authentication type %s key 0x%s\n"
-msgstr "Autenticación GSSAPI completada\n"
+msgstr "Tipo de autenticación ESP %s clave 0x%s\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/esp.c#l217
 #: ../openconnect-strings.txt:586
@@ -1326,10 +1326,10 @@ msgstr "Enviar pruebas ESP\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/esp.c#l264
 #: ../openconnect-strings.txt:596
-#, fuzzy, c-format
+#, c-format
 #| msgid "Received DTLS packet 0x%02x of %d bytes\n"
 msgid "Received ESP packet of %d bytes\n"
-msgstr "Recibió el paquete DTLS 0x%02x de %d bytes\n"
+msgstr "Paquete ESP recibido de %d bytes\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/esp.c#l280
 #: ../openconnect-strings.txt:599
@@ -3955,7 +3955,7 @@ msgstr "Paquete de datos no reconocido\n"
 #: ../openconnect-strings.txt:2025
 #, c-format
 msgid "Unknown KMP message %d of size %d:\n"
-msgstr ""
+msgstr "Mensaje KMP desconocido %d de tamaño %d:\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/oncp.c#l1074
 #: ../openconnect-strings.txt:2028
@@ -3971,7 +3971,7 @@ msgstr "Paquete saliente:\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/oncp.c#l1153
 #: ../openconnect-strings.txt:2034
 msgid "Sent ESP enable control packet\n"
-msgstr ""
+msgstr "El ESP enviado abilita el paquete de control\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/openconnect-internal.h#l1030
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/openconnect-internal.h#l1038
@@ -4001,6 +4001,8 @@ msgstr "Falló al usar la clave privada del almacén de claves\n"
 #: ../openconnect-strings.txt:2050
 msgid "Failed to set up decryption context for ESP packet:\n"
 msgstr ""
+"No se ha podido establecer el contexto para el descifrado de el paquete "
+"ESP:\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/openssl-esp.c#l171
 #: ../openconnect-strings.txt:2053
@@ -4018,6 +4020,7 @@ msgstr "Falló al leer del socket SSL\n"
 #: ../openconnect-strings.txt:2059
 msgid "Failed to set up encryption context for ESP packet:\n"
 msgstr ""
+"No se ha podido establecer el contexto de cifrado para el paquete ESP:\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/openssl-esp.c#l215
 #: ../openconnect-strings.txt:2062
@@ -4049,7 +4052,7 @@ msgstr "PIN caducado\n"
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/openssl-pkcs11.c#l258
 #: ../openconnect-strings.txt:2077
 msgid "Another user already logged in\n"
-msgstr ""
+msgstr "Otro usuario ya ha iniciado sesión\n"
 
 #. http://git.infradead.org/users/dwmw2/openconnect.git/blob/8f43252839:/openssl-pkcs11.c#l262
 #: ../openconnect-strings.txt:2080
